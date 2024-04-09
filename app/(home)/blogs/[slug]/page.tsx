@@ -45,7 +45,7 @@ export default function Page({ params }: any) {
   return (
     <article className="prose px-2 lg:px-0 py-[200px] prose-sm md:prose-base lg:prose-lg  mx-auto max-w-[1280px]">
       <div className="flex justify-between item-center">
-        <h1 className="dark:text-slate-100">{frontMatter.title}</h1>
+        <h1 className="text-blue-600">{frontMatter.title}</h1>
         
       </div>
       <Image
