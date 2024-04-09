@@ -43,7 +43,7 @@ export default function Page({ params }: any) {
   const { frontMatter, content } = getPost(params);
 
   return (
-    <article className="prose px-2 lg:px-0 py-[200px] prose-sm md:prose-base lg:prose-lg prose-slate !prose-invert mx-auto max-w-[1280px]">
+    <article className="prose px-2 lg:px-0 py-[200px] prose-sm md:prose-base lg:prose-lg !prose-invert mx-auto max-w-[1280px]">
       <div className="flex justify-between item-center">
         <h1>{frontMatter.title}</h1>
         
